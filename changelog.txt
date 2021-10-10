@@ -1,0 +1,29 @@
+3.3
++ Seperated the JavaScript from popup.html into popup.js to fix a critical bug. (Credits goes to Trigam for finding it)
++ Updated popup.html's error message
+
+3.2
++ Deleted options.html, since it was useless
++ Updated master key setting guide in FAQ.txt
++ Added spacing in popup.html
++ Removed unnessacery permissions in manifest.json
+
+3.1
++ Added source for the sha function as a comment in popup.js
++ Moved popup.js to popup.html, deleted popup.js
++ Simplified popup.html to remove unneeded tags
++ Fixed comment typo
+
+3.0
++ Added FAQ.txt, changelog.txt and license.txt
++ Changed name and description in manifest.json
++ Added "author" attribute to manifest.json
++ Added icons.
++ removed background.js and the mentions of it in manifest.json
+
+2.0
++ Switched encoding from hex to base64
++ Added name and description in manifest.json
+
+1.0
++ Released the plugin

@@ -1,0 +1,33 @@
+F: How do I install this chrome plugin?
+
+A: Go to "chrome://extensions/", click the "Load Unpacked" button, navigate to the folder that contains this guide.txt file and open that.
+
+
+
+F: How do I set my master key?
+
+A: in "popup.html", put your master key between the two double-quotes in line 4. If your master key has double-quotes in it, put a backslash ("\") directly left of every double-quote.
+
+
+
+F: How do I use the plugin?
+
+A: You press the "Extensions" button in the top right corner (should look like a puzzle piece) and then simply click on the plugin and it pops up a password.
+
+
+
+F: How does this chrome plugin generate a password?
+
+A: It takes the domain of the page (it ignores subdomains), adds the master key to it, and then hashes both of them together using SHA-512. Then it base64 encodes it so it does not look like unicode garbage.
+
+
+
+F: How do I trust that this chrome plugin is not a virus?
+
+A: If you can read JavaScript code, you can read through the 55 lines of plain, commented, and not in any way obfuscated .js source code in popup.js!
+
+
+
+F: What is inspiration.png?
+
+A: My inspiration for making this chrome extension. You can remove that image if you want. It isn't used anywhere currently. (same with 1024.png)
